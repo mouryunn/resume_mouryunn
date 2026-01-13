@@ -1,4 +1,6 @@
 @echo off
+set "PATH=%PATH%;C:\Program Files\Git\cmd"
+
 echo Initializing Git repository...
 git init
 git add .
